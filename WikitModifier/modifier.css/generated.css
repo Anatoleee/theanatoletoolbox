@@ -1,0 +1,129 @@
+body {
+    font-family: "Share Tech Mono", monospace;
+    font-size: 16px;
+    color: #1C2833;
+    background-color: #F7F7F7;
+    margin: 2% 1% 1% 2%;
+    background-image: url('../Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.textarea {
+    background-color: #EDEDF1;
+    font-family: "Share Tech Mono", monospace;
+    width: 100em;
+    height: 40em;
+    border-color: #A6ACAF;
+    border-style: dashed;
+    border-width: 2px;
+    resize: none;
+    border-radius: 7px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.button {
+    display: flex;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-top: 0.7em;
+}
+
+.button_copy_at {
+    margin-left: 17rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #F5F5F8;
+    height: 3rem;
+    width: 11rem;
+}
+
+.button_download_at {
+    margin-left: 30rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F5F5F8;
+    height: 3.5rem;
+    width: 8.5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.button_copy {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-left: 1em;
+    padding: 5px 5px 11px 4px;
+    height: 1.8rem;
+    width: 9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Share Tech Mono", monospace;
+    border: none;
+    background-color: #EDEDF1;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    color: black;
+}
+
+.button_download {
+    font-size: 16px;
+    text-align: center;
+    margin-top: -2px;
+    margin-left: 0.8em;
+    padding: 7px 5px 0px 4px;
+    height: 1.8rem;
+    border-radius: 5px;
+    width: 6.5rem;
+    cursor: pointer;
+    font-family: "Share Tech Mono", monospace;
+    border: none;
+    background-color: #EDEDF1;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    text-decoration: none;
+    color: black;
+ }
+
+.button_download:active {
+    background-color: #CACACA;
+}
+
+.button_copy:active {
+    background-color: #CACACA;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.button_return_at {
+    margin-top: 5em;
+    margin-left: 38rem;
+    position: absolute;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #F5F5F8;
+    height: 3.5rem;
+    width: 8.5rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.button_return {
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 0.8em;
+    padding: 7px 5px 0px 4px;
+    height: 1.8rem;
+    border-radius: 5px;
+    width: 6.5rem;
+    cursor: pointer;
+    font-family: "Share Tech Mono", monospace;
+    border: none;
+    background-color: #EDEDF1;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    text-decoration: none;
+    color: black;
+}

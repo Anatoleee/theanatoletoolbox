@@ -1,0 +1,222 @@
+body {
+    background-color: #CFBA65;
+}
+
+.login_note {
+}
+
+.shadow_note {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: #F5F5F5;
+    border-radius: 6px;
+    width: 37vw;
+    height: 55vh;
+    margin: 18vh 0 0 31vw;
+    padding: 0 0 0 0;
+    position: absolute;
+}
+
+
+
+.note_text_login {
+    font-family: Oswald;
+    margin: 4% 0 0 16.5%;
+    padding: 0;
+    font-size: 35px;
+}
+@media screen and (min-width: 2560px) {
+    .note_text_login {
+        font-size: 69px;
+    }
+}
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+    .note_text_login {
+        font-size: 53px;
+    }
+}
+@media screen and (min-width: 1680px) and (max-width: 1919px) {
+    .note_text_login {
+        font-size: 46px;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1679px) {
+    .note_text_login {
+        font-size: 42.5px;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+    .note_text_login {
+        font-size: 38.5px;
+    }
+}
+@media screen and (min-width: 1360px) and (max-width: 1439px) {
+    .note_text_login {
+        font-size: 38px;
+    }
+}
+@media screen and (max-width: 1359px) {
+    .note_text_login {
+        font-size: 35px;
+    }
+}
+
+
+
+
+
+.note_id_div {
+}
+.note_id {
+    font-family: Oswald;
+    font-size: 16.5px;
+    display: flex;
+    width: 25vw;
+    height: 6vh;
+    margin: 4vh 0 0 16%;
+    border-radius: 4px;
+    background-color: #F0F3F4;
+    border: none;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+
+
+.note_pass_div {
+}
+.note_pass {
+    font-family: Oswald;
+    font-size: 16.5px;
+    display: flex;
+    width: 25vw;
+    height: 6vh;
+    margin: 5vh 0 0 16%;
+    border-radius: 4px;
+    background-color: #F0F3F4;
+    border: none;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+
+
+
+.note_submit_div {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    background-color: #F5F5F5;
+    width: 6.5vw;
+    height: 5.5vh;
+    border-radius: 4px;
+    margin: 4vh 0 0 41%;
+}
+.note_submit {
+    font-family: Oswald;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    position: absolute;
+    border: #000000;
+    width: 5.5vw;
+    height: 4vh;
+    border-radius: 4px;
+    margin: 0.6vh 0 0 7.5%;
+    transition: 0.1s;
+    text-align: center;
+    font-size: 15px;
+}
+.note_submit:hover {
+    cursor: pointer;
+}
+.note_submit:active {
+    margin: 0.75vh 0 0 0.65vw;
+}
+@media screen and (min-width: 2560px) {
+    .note_submit {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+    .note_submit {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 1680px) and (max-width: 1919px) {
+    .note_submit {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1679px) {
+    .note_submit {
+        font-size: 13.5px;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+    .note_submit {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 1360px) and (max-width: 1439px) {
+    .note_submit {
+        font-size: 12.7px;
+    }
+}
+@media screen and (max-width: 1359px) {
+    .note_submit {
+        font-size: 12px;
+    }
+}
+
+
+
+
+.register_link {
+    width: 95px;
+    height: 21px;
+    display: flex;
+    margin: 1.5vh 0 0 40%;
+    text-decoration: none;
+    color: black;
+    font-family: Oswald;
+    font-size: 0px;
+}
+@media screen and (min-width: 2560px) {
+    .register_link {
+        font-size: 25px;
+    }
+}
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+    .register_link {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1680px) and (max-width: 1919px) {
+    .register_link {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1679px) {
+    .register_link {
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+    .register_link {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 1360px) and (max-width: 1439px) {
+    .register_link {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1359px) {
+    .register_link {
+        font-size: 14px;
+    }
+}

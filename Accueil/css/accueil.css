@@ -1,0 +1,202 @@
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url("../../images/backgrounds/background_light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    font-family: "Poetsen One", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+}
+
+.wikit_modifier {
+    position: fixed;
+    background-color: #ECF0F1;
+    margin: 3.5rem 0 0 5rem;
+    padding: 0;
+    width: 34.5rem;
+    height: 16rem;
+    border-radius: 1.1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.wikit_title {
+    font-size: 1em;
+    margin: 1.5% 0 0 2%;
+    padding: 0 0 0 0.25em;
+}
+
+.wikit_modifier_screenshot {
+    margin: 1% 0 0 2.5%;
+    width: 65%;
+    height: 12rem;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.text_wikit {
+    font-size: 15px;
+    margin: 0.5rem 0 0 24.5rem;
+    position: absolute;
+    width: 10em;
+    height: 8em;
+}
+
+.subtitle_wikit_modifier {
+    font-size: 12px;
+    margin: 0.47em 0 0.6em 1.5em;
+}
+
+.go_wikit_button {
+    margin: 9em 0 0 24.5em;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: absolute;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: margin 0.1s;
+}
+
+.go_wikit_button:active {
+    margin: 9.2em 0 0 24.8em;
+}
+
+
+
+.MySQL_login_register {
+    position: fixed;
+    background-color: #ECF0F1;
+    margin: 3.5rem 0 0 43rem;
+    padding: 0;
+    width: 34.5rem;
+    height: 16rem;
+    border-radius: 1.1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.MySQL_title {
+    font-size: 1em;
+    margin: 1.5% 0 0 2%;
+    padding: 0 0 0 0.25em;
+}
+
+.MySQL_screenshot {
+    margin: 1% 0 0 2.5%;
+    width: 65%;
+    height: 12rem;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.text_MySQL {
+    font-size: 15px;
+    margin: 0.5rem 0 0 24.5rem;
+    position: absolute;
+    width: 10em;
+    height: 8em;
+}
+
+.subtitle_MySQL {
+    font-size: 12px;
+    margin: 0.47em 0 0.6em 1.5em;
+}
+
+.go_MySQL_button {
+    margin: 9em 0 0 24.5em;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: absolute;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: margin 0.1s;
+}
+
+.go_MySQL_button:active {
+    margin: 9.2em 0 0 24.8em;
+}
+
+
+
+.template1 {
+    position: fixed;
+    background-color: #ECF0F1;
+    margin: 21rem 0 0 5rem;
+    padding: 0;
+    width: 34.5rem;
+    height: 16rem;
+    border-radius: 1.1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.template1_title {
+    font-size: 1em;
+    margin: 1.5% 0 0 2%;
+    padding: 0 0 0 0.25em;
+}
+
+.template1_screenshot {
+    margin: 1% 0 0 2.5%;
+    width: 62%;
+    height: 25%;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.text_template1 {
+    font-size: 15px;
+    margin: 0.5rem 0 0 24.5rem;
+    position: absolute;
+    width: 10em;
+    height: 8em;
+}
+
+.subtitle_template1 {
+    font-size: 12px;
+    margin: 0.47em 0 0.6em 1.5em;
+}
+
+.go_template1_button {
+    margin: 9em 0 0 24.5em;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: absolute;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: margin 0.1s;
+}
+
+.go_template1_button:active {
+    margin: 9.2em 0 0 24.8em;
+}
