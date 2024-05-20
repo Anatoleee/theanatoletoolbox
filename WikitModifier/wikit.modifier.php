@@ -5,8 +5,8 @@ print '
 <html lang = "fr" >
 <head >
     <meta charset = "UTF-8" >
-    <link href = "./modifier.css/modifier.css" rel = "stylesheet" >
-    <title>HELPI UI Modifieur</title >
+    <link href = "./css/modifier.css" rel = "stylesheet" >
+    <title > Modifieur</title >
     <link rel = "preconnect" href = "https://fonts.googleapis.com" >
     <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin >
     <link href = "https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel = "stylesheet" >

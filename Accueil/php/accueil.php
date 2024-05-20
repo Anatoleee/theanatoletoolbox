@@ -10,50 +10,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div class="background">
-    <div class="container">
+<div class="wrapper">
+    <div class="row1">
+
         <div class="wikit_modifier">
-            <div class="content_wikit">
-                <p class="wikit_title">Wikit Modifier : </p>
-                <p class="text_wikit">Voici Wikit Modifier : un modifieur de code JavaScript pour un chatbot du département de la Nièvre. C'est mon premier site.</p>
-                <a href="../../WikitModifier/wikit.modifier.php">
-                    <button class="go_wikit_button">Y Aller</button>
-                </a>
-                <img class="wikit_modifier_screenshot" src="../../images/screenshots/wikit_modifier_screenshot.png">
-                <p class="subtitle_wikit_modifier">Copyright © : Anatole CAPELLE 2024</p>
-            </div>
-        </div>
-
-        <div class="MySQL_login_register">
-            <div class="content_login_register">
-                <p class="MySQL_title">MySQL login/signup : </p>
-                <p class="text_MySQL">Voici MySQL login/signup : C'est ma première page web de connexion et d'enregistrement. Elle est aussi utilisé sur ce site</p>
-                <a href="connexion.php">
-                    <button class="go_MySQL_button">Y Aller</button>
-                </a>
-                <img class="MySQL_screenshot" src="../../images/screenshots/mysql_login_scrennshot.png">
-                <p class="subtitle_MySQL">Copyright © : Anatole CAPELLE 2024</p>
-            </div>
-        </div>
-
-        <div class="template1">
-            <div class="content_template1">
-                <p class="template1_title">Le Bloc Note :</p>
-                <p class="text_template1">Voici Le Bloc Note : C'est un simple site pour prendre des notes. Enjoy ;)</p>
-                <a href="../../LeBlocNote/php/login_note.php">
-                    <button class="go_template1_button">Y Aller</button>
-                </a>
-                <img class="template1_screenshot" src="../../images/backgrounds/background_light.jpg">
-                <p class="subtitle_template1">Copyright © : Anatole CAPELLE 2024</p>
-            </div>
+            <p class="wikit_title">Wikit Modifier : </p>
+            <p class="text_wikit">Voici Wikit Modifier : un modifieur de code JavaScript pour un chatbot du département de la Nièvre. C'est mon premier site.</p>
+            <a href="../../WikitModifier/wikit.modifier.php"><button class="go_wikit_button">Y Aller</button></a>
+            <img class="wikit_modifier_screenshot" src="../../Images/screenshots/wikit_modifier_screenshot.png">
+            <p class="subtitle_wikit_modifier">Copyright © : Anatole CAPELLE 2024</p>
         </div>
 
 
-        <div class="template2">
-
+        <div class="bloc_note">
+            <p class="bloc_note_title">Bloc Note : </p>
+            <p class="text_bloc_note">Voici Bloc Note : C'est un simple bloc note, il utilise aussi un système de connexion et d'inscription. Il est assez pratique ;) </p>
+            <a href="../../Accueil/php/accueil.php"><button class="go_bloc_note_button">Y Aller</button></a>
+            <img class="bloc_note_screenshot" src="../../Images/backgrounds/background_dark.jpg">
+            <p class="subtitle_bloc_note">Copyright © : Anatole CAPELLE 2024</p>
         </div>
 
     </div>
+
+    <div class="row2">
+
+        <div class="template1">
+            <p class="template1_title">Wikit Modifier : </p>
+            <p class="text_template1">lorem ipsum dolor : Sit amet consectetur adipiscing elit aute enim suscipit enim facer tempor duo veniam cupiditat </p>
+            <a href="../../Accueil/php/accueil.php"><button class="go_template1_button">Y Aller</button></a>
+            <img class="template1_screenshot" src="../../Images/backgrounds/background_light.jpg">
+            <p class="subtitle_template1">Copyright © : Anatole CAPELLE 2024</p>
+        </div>
+
+    </div>
+
 </div>
+
 </body>
 </html>
