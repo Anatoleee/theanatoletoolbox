@@ -9,17 +9,17 @@
     </style>
     <meta charset="UTF-8">
     <title>Le Bloc Note | theanatoletoolbox</title>
-    <link rel="stylesheet" href="../css/login_note.css">
+    <link rel="stylesheet" href="../css/signup_note.css">
 </head>
 <body>
 <div class="login_note">
     <div class="shadow_note">
-        <form action="verif_login_note.php" method="POST">
+        <form action="VERIF_signup.php" method="POST">
 
-            <p class="note_text_login">Connexion au Bloc-Note :</p>
+            <p class="note_text_login">Inscription au Bloc-Note :</p>
 
             <div class="note_id_div">
-                <input type="text" name="note_id" id="note_id" class="note_id" placeholder="Identifiant">
+                <input type="email" name="note_id" id="note_id" class="note_id" placeholder="Identifiant">
             </div>
 
             <div class="note_pass_div">
@@ -27,13 +27,13 @@
             </div>
 
             <div class="note_submit_div">
-                <button type="submit" class="note_submit">Connexion</button>
+                <button type="submit" class="note_submit">Inscription</button>
             </div>
 
         </form>
 
-        <div class="or_register">
-            <a href="signup_note.php" class="register_link">Ou Inscrivez-vous</a>
+        <div class="or_login">
+            <a href="login.php" class="login_link">Ou Connectez-vous</a>
         </div>
 
     </div>

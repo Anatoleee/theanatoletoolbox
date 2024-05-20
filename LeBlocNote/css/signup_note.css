@@ -1,5 +1,5 @@
 body {
-    background-color: #CFBA65;
+    background-image: url("../../Images/backgrounds/background_dark.jpg");
 }
 
 .login_note {
@@ -8,16 +8,15 @@ body {
 .shadow_note {
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    background-color: #F5F5F5;
+    background-color: rgba(255, 255, 255, .7);
     border-radius: 6px;
     width: 37vw;
     height: 55vh;
     margin: 18vh 0 0 31vw;
     padding: 0 0 0 0;
     position: absolute;
+    border: #240348 1.8px solid;
 }
-
-
 
 .note_text_login {
     font-family: Oswald;
@@ -25,48 +24,10 @@ body {
     padding: 0;
     font-size: 35px;
 }
-@media screen and (min-width: 2560px) {
-    .note_text_login {
-        font-size: 68px;
-    }
-}
-@media screen and (min-width: 1920px) and (max-width: 2559px) {
-    .note_text_login {
-        font-size: 52px;
-    }
-}
-@media screen and (min-width: 1680px) and (max-width: 1919px) {
-    .note_text_login {
-        font-size: 45px;
-    }
-}
-@media screen and (min-width: 1600px) and (max-width: 1679px) {
-    .note_text_login {
-        font-size: 42.5px;
-    }
-}
-@media screen and (min-width: 1440px) and (max-width: 1599px) {
-    .note_text_login {
-        font-size: 38.5px;
-    }
-}
-@media screen and (min-width: 1360px) and (max-width: 1439px) {
-    .note_text_login {
-        font-size: 37px;
-    }
-}
-@media screen and (max-width: 1359px) {
-    .note_text_login {
-        font-size: 34px;
-    }
-}
-
-
-
-
 
 .note_id_div {
 }
+
 .note_id {
     font-family: Oswald;
     font-size: 16.5px;
@@ -75,17 +36,15 @@ body {
     height: 6vh;
     margin: 4vh 0 0 16%;
     border-radius: 4px;
-    background-color: #F0F3F4;
+    background-color: rgba(255, 255, 255, .4);
     border: none;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-
-
-
 .note_pass_div {
+
 }
 .note_pass {
     font-family: Oswald;
@@ -95,16 +54,12 @@ body {
     height: 6vh;
     margin: 5vh 0 0 16%;
     border-radius: 4px;
-    background-color: #F0F3F4;
+    background-color: rgba(255, 255, 255, .4);
     border: none;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
-
-
-
-
 
 .note_submit_div {
     position: relative;
@@ -130,93 +85,108 @@ body {
     text-align: center;
     font-size: 15px;
 }
+
 .note_submit:hover {
     cursor: pointer;
 }
+
 .note_submit:active {
     margin: 0.75vh 0 0 0.65vw;
 }
+
+.login_link {
+    width: 103px;
+    height: 21px;
+    display: flex;
+    margin: 1.5vh 0 0 40.2%;
+    text-decoration: none;
+    color: black;
+    font-family: Oswald;
+    font-size: 0px;
+}
+
 @media screen and (min-width: 2560px) {
     .note_submit {
-        font-size: 19px;
+        font-size: 20px;
+    }
+    .login_link {
+        width: 180px;
+        font-size: 25px;
+    }
+    .note_text_login {
+        font-size: 69px;
     }
 }
 @media screen and (min-width: 1920px) and (max-width: 2559px) {
     .note_submit {
-        font-size: 15px;
+        font-size: 16px;
+    }
+    .login_link {
+        font-size: 20px;
+        width: 140px;
+    }
+    .note_text_login {
+        font-size: 53px;
     }
 }
 @media screen and (min-width: 1680px) and (max-width: 1919px) {
     .note_submit {
         font-size: 14px;
     }
+    .login_link {
+        width: 130px;
+        font-size: 18px;
+    }
+    .note_text_login {
+        font-size: 46px;
+    }
+
 }
 @media screen and (min-width: 1600px) and (max-width: 1679px) {
     .note_submit {
         font-size: 13.5px;
     }
+    .login_link {
+        font-size: 17px;
+        width: 125px;
+    }
+    .note_text_login {
+        font-size: 42.5px;
+    }
 }
 @media screen and (min-width: 1440px) and (max-width: 1599px) {
     .note_submit {
         font-size: 13px;
+    }
+    .login_link {
+        width: 115px;
+        font-size: 16px;
+    }
+    .note_text_login {
+        font-size: 38.5px;
     }
 }
 @media screen and (min-width: 1360px) and (max-width: 1439px) {
     .note_submit {
         font-size: 12.7px;
     }
+    .login_link {
+        width: 110px;
+        font-size: 15px;
+    }
+    .note_text_login {
+        font-size: 38px;
+    }
 }
 @media screen and (max-width: 1359px) {
     .note_submit {
-        font-size: 11px;
+        font-size: 12px;
     }
-}
-
-
-
-
-.register_link {
-    width: 97px;
-    height: 21px;
-    display: flex;
-    margin: 1.5vh 0 0 40%;
-    text-decoration: none;
-    color: black;
-    font-family: Oswald;
-    font-size: 0px;
-}
-@media screen and (min-width: 2560px) {
-    .register_link {
-        font-size: 24px;
-    }
-}
-@media screen and (min-width: 1920px) and (max-width: 2559px) {
-    .register_link {
-        font-size: 19px;
-    }
-}
-@media screen and (min-width: 1680px) and (max-width: 1919px) {
-    .register_link {
-        font-size: 17px;
-    }
-}
-@media screen and (min-width: 1600px) and (max-width: 1679px) {
-    .register_link {
-        font-size: 16px;
-    }
-}
-@media screen and (min-width: 1440px) and (max-width: 1599px) {
-    .register_link {
-        font-size: 15px;
-    }
-}
-@media screen and (min-width: 1360px) and (max-width: 1439px) {
-    .register_link {
+    .login_link {
+        width: 105px;
         font-size: 14px;
     }
-}
-@media screen and (max-width: 1359px) {
-    .register_link {
-        font-size: 13px;
+    .note_text_login {
+        font-size: 35px;
     }
 }
