@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <title>Test Main</title>
     <link rel="stylesheet" href="css/leblocnote.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-<form action="./config/update.php" method="POST">
+<form action="./config/update.php" method="post">
 <?php
 session_start();
 
@@ -30,10 +33,6 @@ if($confirmarray['confirm'] == 1) {
             return strpos($key, 'note_') === 0;
         }));
 
-        for ($h = 1; $h <= $count; $h++) {
-            print "<textarea id='note_$h' name='note_$h'>" . htmlspecialchars($a['note_' . $h]) . "</textarea>";
-        }
-
     } else {
         header('Location: ../login/login.php');
     }
@@ -43,12 +42,27 @@ if($confirmarray['confirm'] == 1) {
 }
 
 ?>
-    <br>
-    <button type="submit">Mettre à jour</button>
-</form>
+    <div class="global_note">
+        <?php
+        for ($h = 1; $h <= $count; $h++) {
+            // Vérifiez si la clé existe avant d'afficher l'élément
+            if (isset($a['note_' . $h])) {
+                echo "<div class='div_note'>
+            <p class='text_note'>-----------------------------------</p>
+            <textarea id='note_$h' name='note_$h' class='class_note'>" . htmlspecialchars($a['note_' . $h]) . "</textarea>
+            </div>";
 
+            } else {
+            }
+        }
+        ?>
+    </div>
+
+
+    <button type="submit" class="updt_button">Mettre à jour</button>
+</form>
 <form action="./config/newcolumn.php" method="POST">
-    <button type="submit">nouvelle colonne</button>
+    <button type="submit" class="newclmn_button">nouvelle colonne</button>
 </form>
 
 </body>

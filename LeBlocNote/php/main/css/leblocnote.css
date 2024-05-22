@@ -1,0 +1,76 @@
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    font-family: "Oswald";
+    background-image: url("../../../../Images/backgrounds/BlocNote_Background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.global_note {
+    margin: -1vh 0 0 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+}
+
+.text_note {
+    text-align: center;
+    position: relative;
+    margin: 1% 0 1% 0;
+    padding: 0 0 0 0;
+    font-size: 23px;
+
+}
+
+.div_note {
+    margin: 6vh 0 0 0;
+    position: relative;
+    background-color: #EEEEF0;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 7px;
+    width: 20vw;
+    height: 55vh;
+
+}
+
+.class_note {
+    margin: 0 0 0 4%;
+    position: relative;
+    background-color: #ECF0F1;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    width: 18vw;
+    height: auto;
+    font-size: 13px;
+}
+
+.updt_button {
+    display: flex;
+    margin: 5% 0 0 19%;
+    position: absolute;
+    width: 7.5vw;
+    height: 3vw;
+    border-radius: 4px;
+    background-color: #3498DB;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.newclmn_button {
+    display: flex;
+    margin: 5% 0 0 75%;
+    position: absolute;
+    width: 7.5vw;
+    height: 3vw;
+    border-radius: 4px;
+    background-color: #3498DB;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
