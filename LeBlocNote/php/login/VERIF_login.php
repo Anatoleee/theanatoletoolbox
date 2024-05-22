@@ -2,17 +2,21 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/errormessage.css">
+    <link rel="stylesheet" href="../../css/errormessage.css">
 </head>
 <body>
 <?php
-require('connect_config.php');
+session_start();
+require('../config/connect_config.php');
 if (isset($_POST['note_id']) && isset($_POST['note_pass'])) {
     $note_id = $_POST['note_id'];
     $note_pass = $_POST['note_pass'];
+
+    $_SESSION['note_id'] = $note_id;
+
     if (!empty($note_id) && !empty($note_pass)) {
-        $sql_user = "SELECT password FROM users_note WHERE user = '$note_id'";
-        $sql_confirm = "SELECT confirm FROM users_note";
+        $sql_user = "SELECT password FROM users_info WHERE user = '$note_id'";
+        $sql_confirm = "SELECT confirm FROM users_info";
         $result_user = mysqli_query($connexion_note, $sql_user);
         $result_confirm = mysqli_query($connexion_note, $sql_confirm);
         $confirmarray = mysqli_fetch_assoc($result_confirm);
@@ -24,7 +28,8 @@ if (isset($_POST['note_id']) && isset($_POST['note_pass'])) {
                     $note_pass_hashed = $row['password'];
 
                     if (password_verify($note_pass, $note_pass_hashed)) {
-                        echo "Connexion réussie";
+                        header('Location: ../main/leblocnote.php');
+
                     } else {
                         include('login.php');
                         print " 
@@ -50,6 +55,7 @@ if (isset($_POST['note_id']) && isset($_POST['note_pass'])) {
         }
     } else {
         include('login.php');
+
         print " 
         <p class='login_notset'>Veuillez remplir tout les champs</p>
         ";

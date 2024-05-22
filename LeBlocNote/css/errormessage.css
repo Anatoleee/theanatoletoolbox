@@ -1,0 +1,243 @@
+.loginpass_wrong {
+    position: absolute;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 52.7vh 0 0 45.3%;
+    font-size: 15px;
+}
+
+.loginid_confirm {
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 52.7vh 0 0 45.3%;
+}
+
+.loginid_wrong {
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 52.7vh 0 0 45.3%;
+}
+
+.login_notset {
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 52.7vh 0 0 45.3%;
+}
+
+.signupnid_alrdyxst {
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 52.7vh 0 0 45.3%;
+}
+
+.signupnid_notset {
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 52.7vh 0 0 45.3%;
+}
+
+
+
+
+
+@media screen and (min-width: 2560px) {
+    .loginpass_wrong {
+        margin: 51vh 0 0 45.1%;
+        font-size: 27px;
+    }
+    .loginid_confirm {
+        margin: 51vh 0 0 43.45%;
+        font-size: 27px;
+    }
+    .loginid_wrong {
+        margin: 51vh 0 0 45.5%;
+        font-size: 27px;
+    }
+    .login_notset {
+        margin: 51vh 0 0 43.45%;
+        font-size: 27px;
+    }
+    .signupnid_alrdyxst {
+        margin: 51vh 0 0 44.45%;
+        font-size: 27px;
+    }
+    .signupnid_notset {
+        margin: 51vh 0 0 43.45%;
+        font-size: 27px;
+    }
+}
+
+
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+    .loginpass_wrong {
+        margin: 51vh 0 0 44.5%;
+        font-size: 23px;
+    }
+    .loginid_confirm {
+        margin: 51vh 0 0 42.5%;
+        font-size: 23px;
+    }
+    .loginid_wrong {
+        margin: 51vh 0 0 45%;
+        font-size: 23px;
+    }
+    .login_notset {
+        margin: 51vh 0 0 42.5%;
+        font-size: 23px;
+    }
+    .signupnid_alrdyxst {
+        margin: 51vh 0 0 43.5%;
+        font-size: 23px;
+    }
+    .signupnid_notset {
+        margin: 51vh 0 0 42.5%;
+        font-size: 23px;
+    }
+}
+@media screen and (min-width: 1680px) and (max-width: 1919px) {
+    .loginpass_wrong {
+        margin: 51vh 0 0 44.25%;
+        font-size: 21px;
+    }
+    .loginid_confirm {
+        margin: 51vh 0 0 42.35%;
+        font-size: 21px;
+    }
+    .loginid_wrong {
+        margin: 51vh 0 0 44.25%;
+        font-size: 21px;
+    }
+    .login_notset {
+        margin: 51vh 0 0 42.35%;
+        font-size: 21px;
+    }
+    .signupnid_alrdyxst {
+        margin: 51vh 0 0 43.35%;
+        font-size: 21px;
+    }
+    .signupnid_notset {
+        margin: 51vh 0 0 42.35%;
+        font-size: 21px;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1679px) {
+    .loginpass_wrong {
+        margin: 51vh 0 0 44.3%;
+        font-size: 20px;
+    }
+    .loginid_confirm {
+        margin: 51vh 0 0 42.4%;
+        font-size: 20px;
+    }
+    .loginid_wrong {
+        margin: 51vh 0 0 44.3%;
+        font-size: 20px;
+    }
+    .login_notset {
+        margin: 51vh 0 0 42.4%;
+        font-size: 20px;
+    }
+    .signupnid_alrdyxst {
+        margin: 51vh 0 0 43.4%;
+        font-size: 20px;
+    }
+    .signupnid_notset {
+        margin: 51vh 0 0 42.4%;
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+    .loginpass_wrong {
+        margin: 51vh 0 0 44.3%;
+        font-size: 18px;
+    }
+    .loginid_confirm {
+        margin: 51vh 0 0 42.25%;
+        font-size: 18px;
+    }
+    .loginid_wrong {
+        margin: 51vh 0 0 44.3%;
+        font-size: 18px;
+    }
+    .login_notset {
+        margin: 51vh 0 0 42.25%;
+        font-size: 18px;
+    }
+    .signupnid_alrdyxst {
+        margin: 51vh 0 0 43.25%;
+        font-size: 18px;
+    }
+    .signupnid_notset {
+        margin: 51vh 0 0 42.25%;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 1360px) and (max-width: 1439px) {
+    .loginpass_wrong {
+        margin: 52vh 0 0 44.35%;
+        font-size: 17px;
+    }
+    .loginid_confirm {
+        margin: 52vh 0 0 42%;
+        font-size: 17px;
+    }
+    .loginid_wrong {
+        margin: 52vh 0 0 44.35%;
+        font-size: 17px;
+    }
+    .login_notset {
+        margin: 52vh 0 0 42%;
+        font-size: 17px;
+    }
+    .signupnid_alrdyxst {
+        margin: 52vh 0 0 43.5%;
+        font-size: 17px;
+    }
+    .signupnid_notset {
+        margin: 52vh 0 0 42%;
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1359px) {
+    .loginpass_wrong {
+        margin: 52.5vh 0 0 44.35%;
+        font-size: 17px;
+    }
+    .loginid_confirm {
+        margin: 52.5vh 0 0 42%;
+        font-size: 17px;
+    }
+    .loginid_wrong {
+        margin: 52.5vh 0 0 44.35%;
+        font-size: 17px;
+    }
+    .login_notset {
+        margin: 52.5vh 0 0 42%;
+        font-size: 17px;
+    }
+    .signupnid_alrdyxst {
+        margin: 52.5vh 0 0 43.5%;
+        font-size: 17px;
+    }
+    .signupnid_notset {
+        margin: 52.5vh 0 0 42%;
+        font-size: 17px;
+    }
+}
