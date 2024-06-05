@@ -47,7 +47,7 @@ body {
 }
 
 .subtitle_wikit_modifier {
-    position: absolute;
+    position: relative;
     font-size: 15px;
     margin: 40.3% 0 0 2.5%;
 }
@@ -264,7 +264,7 @@ body {
 }
 
 .subtitle_bloc_note {
-    position: absolute;
+    position: relative;
     font-size: 15px;
     margin: 40.2% 0 0 2.5%;
 }
@@ -463,7 +463,7 @@ body {
 }
 
 .subtitle_template1 {
-    position: absolute;
+    position: relative;
     font-size: 15px;
     margin: 40.2% 0 0 2.5%;
 }

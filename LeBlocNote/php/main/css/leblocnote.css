@@ -21,7 +21,7 @@ body {
 .text_note {
     text-align: center;
     position: relative;
-    margin: 1% 0 1% 0;
+    margin: 0 0 1% 0;
     padding: 0 0 0 0;
     font-size: 23px;
 
@@ -39,7 +39,8 @@ body {
 }
 
 .class_note {
-    margin: 0 0 0 4%;
+    padding: 2% 0 0 2%;
+    margin: 4% 0 0 4%;
     position: relative;
     background-color: #ECF0F1;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -47,30 +48,67 @@ body {
     border: none;
     resize: none;
     width: 18vw;
-    height: auto;
+    height: 38vh;
     font-size: 13px;
 }
 
 .updt_button {
-    display: flex;
-    margin: 5% 0 0 19%;
+    margin: 0 0 0 55%;
     position: absolute;
-    width: 7.5vw;
-    height: 3vw;
+    width: 7vw;
+    height: 2.5vw;
     border-radius: 4px;
-    background-color: #3498DB;
+    background-color: #EDEDF0;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.delete_button {
+    margin: 0 0 0 10%;
+    position: absolute;
+    width: 7vw;
+    height: 2.5vw;
+    border-radius: 4px;
+    background-color: #EDEDF0;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .newclmn_button {
+    padding: 0.85% 0 0 1.5%;
     display: flex;
-    margin: 5% 0 0 75%;
+    margin: 12vh 0 0 45vw;
     position: absolute;
-    width: 7.5vw;
+    width: 9vw;
     height: 3vw;
     border-radius: 4px;
-    background-color: #3498DB;
+    background-color: #EDEDF0;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.home_button {
+    padding: 1% 0 0 3%;
+    display: flex;
+    margin: 12vh 0 0 35vw;
+    position: absolute;
+    width: 9vw;
+    height: 3vw;
+    border-radius: 4px;
+    background-color: #EDEDF0;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.logout_button {
+    padding: 1% 0 0 1.5%;
+    display: flex;
+    margin: 12vh 0 0 55vw;
+    position: absolute;
+    width: 9vw;
+    height: 3vw;
+    border-radius: 4px;
+    background-color: #EDEDF0;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }

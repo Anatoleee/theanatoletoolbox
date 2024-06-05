@@ -25,8 +25,8 @@
         <div class="bloc_note">
             <p class="bloc_note_title">Bloc Note : </p>
             <p class="text_bloc_note">Voici Bloc Note : C'est un simple bloc note, il utilise aussi un système de connexion et d'inscription. Il est assez pratique ;) </p>
-            <a href="../../Accueil/php/accueil.php"><button class="go_bloc_note_button">Y Aller</button></a>
-            <img class="bloc_note_screenshot" src="../../Images/backgrounds/background_dark.jpg">
+            <a href="../../LeBlocNote/php/main/leblocnote.php"><button class="go_bloc_note_button">Y Aller</button></a>
+            <img class="bloc_note_screenshot" src="../../Images/screenshots/LeBlocNote_screenshot.png">
             <p class="subtitle_bloc_note">Copyright © : Anatole CAPELLE 2024</p>
         </div>
 
