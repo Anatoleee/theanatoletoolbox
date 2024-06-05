@@ -1,0 +1,101 @@
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background-image: url("../images/background/weather_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Oswald", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #F4F6F7;
+    border-radius: 7px;
+    width: 30vw;
+    height: 80vh;
+    margin: 10vh 0 0 35vw;
+}
+
+.separator {
+    font-family: "Oswald", sans-serif;
+    font-size: 2vw;
+    margin: 0 0 0 2vw;
+}
+
+.img {
+    margin: 2.5vh 0 0 0;
+}
+
+.actual_weather_div {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #F4F6F7;
+    width: 28vw;
+    height: 7vh;
+    border-radius: 7px;
+    margin: -2vh 0 0 1vw;
+}
+
+.actual_weather {
+    padding: 1.5vh 0 0 0;
+    text-align: center;
+    font-size: 1.7vw;
+    font-family: "Oswald", sans-serif;
+}
+
+.actual_temperature_div {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #F4F6F7;
+    width: 28vw;
+    height: 7vh;
+    border-radius: 7px;
+    margin: -2.5vh 0 0 1vw;
+}
+
+.actual_temperature {
+    padding: 1.5vh 0 0 0;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.7vw;
+    text-align: center;
+}
+
+.sun_img_classe, .clouds_img_classe, .rain_img_classe {
+    position: relative;
+    width: 20vw;
+    height: auto;
+}
+
+.sun_img_classe {
+    margin: 0 0 0 17%;
+}
+
+.clouds_img_classe {
+    margin: 0 0 0 14%;
+}
+
+.rain_img_classe {
+    margin: 0 0 0 17%;
+}
+
+.home_button {
+    margin: 2vh 0 0 8vw;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #F4F6F7;
+    text-decoration: none;
+    color: black;
+    border-radius: 3px;
+    width: 14vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+}

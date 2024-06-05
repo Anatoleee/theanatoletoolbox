@@ -24,7 +24,7 @@
 
         <div class="bloc_note">
             <p class="bloc_note_title">Bloc Note : </p>
-            <p class="text_bloc_note">Voici Bloc Note : C'est un simple bloc note, il utilise aussi un système de connexion et d'inscription. Il est assez pratique ;) </p>
+            <p class="text_bloc_note">Voici Bloc Note : C'est un simple bloc note, il utilise aussi un système de connexion et d'inscription. Il est assez pratique ;). </p>
             <a href="../../LeBlocNote/php/main/leblocnote.php"><button class="go_bloc_note_button">Y Aller</button></a>
             <img class="bloc_note_screenshot" src="../../Images/screenshots/LeBlocNote_screenshot.png">
             <p class="subtitle_bloc_note">Copyright © : Anatole CAPELLE 2024</p>
@@ -34,12 +34,20 @@
 
     <div class="row2">
 
-        <div class="template1">
-            <p class="template1_title">Wikit Modifier : </p>
-            <p class="text_template1">lorem ipsum dolor : Sit amet consectetur adipiscing elit aute enim suscipit enim facer tempor duo veniam cupiditat </p>
-            <a href="../../Accueil/php/accueil.php"><button class="go_template1_button">Y Aller</button></a>
-            <img class="template1_screenshot" src="../../Images/backgrounds/background_light.jpg">
-            <p class="subtitle_template1">Copyright © : Anatole CAPELLE 2024</p>
+        <div class="weatherapi">
+            <p class="weatherapi_title">Weather API : </p>
+            <p class="text_weatherapi">Voici Weather API : C'est une page web qui affiche la météo, c'est la première fois que j'ai travaillé avec une API.</p>
+            <a href="../../WeatherAPI/php/weatherapi.php"><button class="go_weatherapi_button">Y Aller</button></a>
+            <img class="weatherapi_screenshot" src="../../Images/screenshots/weatherapi_screenshot.png">
+            <p class="subtitle_weatherapi">Copyright © : Anatole CAPELLE 2024</p>
+        </div>
+
+        <div class="template">
+            <p class="template_title">Lorem Ipsum : </p>
+            <p class="text_template">Lorem Ipsum : dolor sit amet consectetur adipiscing elit non exercitation laborum blandit luptatum non justo.</p>
+            <a href="../../WeatherAPI/php/weatherapi.php"><button class="go_template_button">Y Aller</button></a>
+            <img class="template_screenshot" src="../../Images/backgrounds/background_light.jpg">
+            <p class="subtitle_template">Copyright © : Anatole CAPELLE 2024</p>
         </div>
 
     </div>

@@ -14,10 +14,10 @@
            backgroundColor: '#000000',
            textColor: '#000000',
        },
-           closeIconDescription: '',
-           launchIconDescription: '',
-           maximizeIconDescription: '',
-           minimizeIconDescription: '',
+           closeIconDescription: 'ads',
+           launchIconDescription: 'dqsdf',
+           maximizeIconDescription: 'vdsfv',
+           minimizeIconDescription: 'sdfs',
        },
     });
 </script>

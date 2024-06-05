@@ -56,7 +56,7 @@ body {
     position: absolute;
     margin: 5% 0 0 2%;
     width: 27vw;
-    height: 31vh;
+    height: 29vh;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -250,7 +250,7 @@ body {
     position: absolute;
     margin: 5% 0 0 2%;
     width: 27vw;
-    height: 31vh;
+    height: 28vh;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -428,7 +428,7 @@ body {
 
 
 
-.template1 {
+.weatherapi {
     margin: 1rem 0 0 0;
     position: relative;
     justify-content: left;
@@ -439,22 +439,22 @@ body {
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
-.template1_title {
+.weatherapi_title {
     position: absolute;
     font-size: 21px;
     margin: 0.7% 0 0 2%;
 }
 
-.template1_screenshot {
+.weatherapi_screenshot {
     position: absolute;
     margin: 5% 0 0 2%;
     width: 27vw;
-    height: 31vh;
+    height: 28vh;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.text_template1 {
+.text_weatherapi {
     position: absolute;
     font-size: 15px;
     margin: 5% 0 0 71%;
@@ -462,13 +462,13 @@ body {
     height: 25%;
 }
 
-.subtitle_template1 {
+.subtitle_weatherapi {
     position: relative;
     font-size: 15px;
     margin: 40.2% 0 0 2.5%;
 }
 
-.go_template1_button {
+.go_weatherapi_button {
     width: 7vw;
     height: 5vh;
     position: absolute;
@@ -487,136 +487,332 @@ body {
 }
 
 @media screen and (min-width: 2560px) {
-    .template1_title {
+    .weatherapi_title {
         font-size: 35px;
     }
-    .text_template1{
+    .text_weatherapi{
         font-size: 35px;
     }
-    .subtitle_template1 {
+    .subtitle_weatherapi {
         font-size: 29px;
         margin: 50% 0 0 2.5%;
     }
-    .go_template1_button {
+    .go_weatherapi_button {
         margin: 38% 0 0 71%;
         width: 9vw;
         height: 5vh;
     }
 }
 @media screen and (min-width: 1920px) and (max-width: 2559px) {
-    .template1_title {
+    .weatherapi_title {
         font-size: 27px;
     }
-    .text_template1{
+    .text_weatherapi{
         font-size: 23px;
     }
-    .subtitle_template1 {
+    .subtitle_weatherapi {
         font-size: 25px;
         margin: 42% 0 0 2.5%;
     }
-    .go_template1_button {
+    .go_weatherapi_button {
         margin: 32% 0 0 71%;
         width: 9vw;
         height: 5vh;
     }
 }
 @media screen and (min-width: 1680px) and (max-width: 1919px) {
-    .template1_title {
+    .weatherapi_title {
         font-size: 22px;
     }
-    .text_template1{
+    .text_weatherapi{
         font-size: 22px;
     }
-    .subtitle_template1 {
+    .subtitle_weatherapi {
         font-size: 20px;
         margin: 50% 0 0 2.5%;
     }
-    .go_template1_button {
+    .go_weatherapi_button {
         margin: 38% 0 0 71%;
         width: 9vw;
         height: 5vh;
     }
 }
 @media screen and (min-width: 1600px) and (max-width: 1679px) {
-    .template1_title {
+    .weatherapi_title {
         font-size: 21px;
     }
-    .text_template1{
+    .text_weatherapi{
         font-size: 21px;
     }
-    .subtitle_template1 {
+    .subtitle_weatherapi {
         font-size: 19px;
         margin: 50% 0 0 2.5%;
     }
-    .go_template1_button {
+    .go_weatherapi_button {
         margin: 38% 0 0 71%;
         width: 9vw;
         height: 5vh;
     }
 }
 @media screen and (min-width: 1440px) and (max-width: 1599px) {
-    .template1_title {
+    .weatherapi_title {
         font-size: 20px;
     }
-    .text_template1{
+    .text_weatherapi{
         font-size: 19px;
     }
-    .subtitle_template1 {
+    .subtitle_weatherapi {
         font-size: 18px;
         margin: 50% 0 0 2.5%;
     }
-    .go_template1_button {
+    .go_weatherapi_button {
         margin: 39% 0 0 71%;
         width: 9vw;
         height: 5vh;
     }
 }
 @media screen and (min-width: 1360px) and (max-width: 1439px) {
-    .template1_title {
+    .weatherapi_title {
         font-size: 19px;
     }
-    .text_template1{
+    .text_weatherapi{
         font-size: 16px;
     }
-    .subtitle_template1 {
+    .subtitle_weatherapi {
         font-size: 17px;
         margin: 40% 0 0 2.5%;
     }
-    .go_template1_button {
+    .go_weatherapi_button {
         margin: 31% 0 0 71%;
         width: 10vw;
         height:5vh;
     }
 }
 @media screen and (min-width: 1280px) and (max-width: 1359px){
-    .template1_title {
+    .weatherapi_title {
         font-size: 17px;
     }
-    .text_template1{
+    .text_weatherapi{
         font-size: 14px;
     }
-    .subtitle_template1 {
+    .subtitle_weatherapi {
         font-size: 13px;
         margin: 39.5% 0 0 2.5%;
     }
-    .go_template1_button {
+    .go_weatherapi_button {
         margin: 32% 0 0 71%;
         width: 10vw;
         height: 5vh;
     }
 }
 @media screen and (min-width: 0px) and (max-width: 1279px) {
-    .template1_title {
+    .weatherapi_title {
         font-size: 15px;
     }
-    .text_template1{
+    .text_weatherapi{
         font-size: 16px;
     }
-    .subtitle_template1 {
+    .subtitle_weatherapi {
         font-size: 13px;
         margin: 48% 0 0 2.5%;
     }
-    .go_template1_button {
+    .go_weatherapi_button {
+        margin: 38% 0 0 71%;
+        width: 9vw;
+        height: 5vh;
+    }
+}
+
+
+.template {
+    margin: 1rem 0 0 2rem;
+    position: relative;
+    justify-content: right;
+    background-color: #ECF0F1;
+    width: 40.5vw;
+    height: 40vh;
+    border-radius: 1.1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.template_title {
+    position: absolute;
+    font-size: 21px;
+    margin: 0.7% 0 0 2%;
+}
+
+.template_screenshot {
+    position: absolute;
+    margin: 5% 0 0 2%;
+    width: 27vw;
+    height: 28vh;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.text_template {
+    position: absolute;
+    font-size: 15px;
+    margin: 5% 0 0 71%;
+    width: 27%;
+    height: 25%;
+}
+
+.subtitle_template {
+    position: relative;
+    font-size: 15px;
+    margin: 40.2% 0 0 2.5%;
+}
+
+.go_template_button {
+    width: 7vw;
+    height: 5vh;
+    position: absolute;
+    margin: 30% 0 0 71%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    transition: margin 0.05s;
+}
+
+@media screen and (min-width: 2560px) {
+    .template_title {
+        font-size: 35px;
+    }
+    .text_template{
+        font-size: 35px;
+    }
+    .subtitle_template {
+        font-size: 29px;
+        margin: 50% 0 0 2.5%;
+    }
+    .go_template_button {
+        margin: 38% 0 0 71%;
+        width: 9vw;
+        height: 5vh;
+    }
+}
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+    .template_title {
+        font-size: 27px;
+    }
+    .text_template{
+        font-size: 23px;
+    }
+    .subtitle_template {
+        font-size: 25px;
+        margin: 42% 0 0 2.5%;
+    }
+    .go_template_button {
+        margin: 32% 0 0 71%;
+        width: 9vw;
+        height: 5vh;
+    }
+}
+@media screen and (min-width: 1680px) and (max-width: 1919px) {
+    .template_title {
+        font-size: 22px;
+    }
+    .text_template{
+        font-size: 22px;
+    }
+    .subtitle_template {
+        font-size: 20px;
+        margin: 50% 0 0 2.5%;
+    }
+    .go_template_button {
+        margin: 38% 0 0 71%;
+        width: 9vw;
+        height: 5vh;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 1679px) {
+    .template_title {
+        font-size: 21px;
+    }
+    .text_template{
+        font-size: 21px;
+    }
+    .subtitle_template {
+        font-size: 19px;
+        margin: 50% 0 0 2.5%;
+    }
+    .go_template_button {
+        margin: 38% 0 0 71%;
+        width: 9vw;
+        height: 5vh;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+    .template_title {
+        font-size: 20px;
+    }
+    .text_template{
+        font-size: 19px;
+    }
+    .subtitle_template {
+        font-size: 18px;
+        margin: 50% 0 0 2.5%;
+    }
+    .go_template_button {
+        margin: 39% 0 0 71%;
+        width: 9vw;
+        height: 5vh;
+    }
+}
+@media screen and (min-width: 1360px) and (max-width: 1439px) {
+    .template_title {
+        font-size: 19px;
+    }
+    .text_template{
+        font-size: 16px;
+    }
+    .subtitle_template {
+        font-size: 17px;
+        margin: 40% 0 0 2.5%;
+    }
+    .go_template_button {
+        margin: 31% 0 0 71%;
+        width: 10vw;
+        height:5vh;
+    }
+}
+@media screen and (min-width: 1280px) and (max-width: 1359px){
+    .template_title {
+        font-size: 17px;
+    }
+    .text_template{
+        font-size: 14px;
+    }
+    .subtitle_template {
+        font-size: 13px;
+        margin: 39.5% 0 0 2.5%;
+    }
+    .go_template_button {
+        margin: 32% 0 0 71%;
+        width: 10vw;
+        height: 5vh;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 1279px) {
+    .template_title {
+        font-size: 15px;
+    }
+    .text_template{
+        font-size: 16px;
+    }
+    .subtitle_template {
+        font-size: 13px;
+        margin: 48% 0 0 2.5%;
+    }
+    .go_template_button {
         margin: 38% 0 0 71%;
         width: 9vw;
         height: 5vh;
