@@ -1,7 +1,7 @@
 
-/* Made By : Anatole Capelle (github.com/Anatoleee) W/ PhC */
-/* This is  a fake template (i do not have the right to publish the real version of this file) */
-<script type="text/javascript" src="https:/*censored*/"></script>
+/* Made By : Anatole Capelle (github.com/Anatoleee) W/ PhC
+ This is  a fake template (i do not have the right to publish the real version of this file)
+       <script type="text/javascript" src="https:censored"></script>
 <script type="text/javascript">
     wrapWebchat({
         },
@@ -20,4 +20,4 @@
            minimizeIconDescription: 'sdfs',
        },
     });
-</script>
+</script>*/
